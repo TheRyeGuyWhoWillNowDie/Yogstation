@@ -2753,15 +2753,6 @@
 /obj/structure/flora/rock/jungle,
 /turf/open/floor/grass,
 /area/maintenance/starboard/fore)
-"avZ" = (
-/obj/structure/rack,
-/obj/effect/turf_decal/bot_red,
-/obj/item/circuitboard/machine/techfab/department/security,
-/obj/item/reagent_containers/syringe/lethal/execution,
-/obj/item/gun/syringe,
-/obj/item/gun/syringe,
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "awb" = (
 /turf/closed/wall,
 /area/hallway/primary/port)
@@ -7162,7 +7153,7 @@
 "bpg" = (
 /obj/machinery/smoke_machine,
 /obj/item/reagent_containers/glass/beaker/large/silver_sulfadiazine{
-	list_reagents = list(/datum/reagent/consumable/condensedcapsaicin=100);
+	list_reagents = list(/datum/reagent/consumable/condensedcapsaicin = 100);
 	name = "liquid pepper spray"
 	},
 /turf/open/floor/plasteel/dark,
@@ -15836,7 +15827,7 @@
 /area/space/nearstation)
 "erV" = (
 /obj/machinery/porta_turret/syndicate/energy/raven{
-	armor = list("melee"=90,"bullet"=70,"laser"=70,"energy"=50,"bomb"=100,"bio"=0,"rad"=0,"fire"=90,"acid"=90);
+	armor = list("melee" = 90, "bullet" = 70, "laser" = 70, "energy" = 50, "bomb" = 100, "bio" = 0, "rad" = 0, "fire" = 90, "acid" = 90);
 	desc = "A Raven-Class laser turret repurposed by the Russians for the defense of their numerous Bunkers. This turret appears to have anti-explosive plating.";
 	faction = list("russian");
 	name = "Russian Defense Turret MK-II"
@@ -27506,6 +27497,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos_distro)
+"iqP" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/bot_red,
+/obj/item/circuitboard/machine/techfab/department/security,
+/obj/item/reagent_containers/syringe/lethal/execution,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/security/armory)
 "iqQ" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -27587,7 +27585,7 @@
 	},
 /obj/machinery/computer/atmos_control/tank/nitrous_tank{
 	dir = 8;
-	sensors = list("n2o_sensor"="Tank")
+	sensors = list("n2o_sensor" = "Tank")
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -29965,7 +29963,7 @@
 	},
 /obj/machinery/computer/atmos_control/tank/carbon_tank{
 	dir = 8;
-	sensors = list("co2_sensor"="Tank")
+	sensors = list("co2_sensor" = "Tank")
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 9
@@ -41852,7 +41850,7 @@
 /area/medical/medbay/central)
 "noq" = (
 /obj/machinery/porta_turret/syndicate/energy/raven{
-	armor = list("melee"=90,"bullet"=70,"laser"=70,"energy"=50,"bomb"=100,"bio"=0,"rad"=0,"fire"=90,"acid"=90);
+	armor = list("melee" = 90, "bullet" = 70, "laser" = 70, "energy" = 50, "bomb" = 100, "bio" = 0, "rad" = 0, "fire" = 90, "acid" = 90);
 	desc = "A Raven-Class laser turret repurposed by the Russians for the defense of their numerous Bunkers. This turret appears to have anti-explosive plating.";
 	faction = list("russian");
 	name = "Russian Defense Turret MK-II"
@@ -59095,7 +59093,7 @@
 	},
 /obj/machinery/computer/atmos_control/tank/toxin_tank{
 	dir = 8;
-	sensors = list("tox_sensor"="Tank")
+	sensors = list("tox_sensor" = "Tank")
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos_distro)
@@ -60731,7 +60729,7 @@
 	dir = 1
 	},
 /obj/machinery/computer/atmos_control/tank/air_tank{
-	sensors = list("air_sensor"="Tank")
+	sensors = list("air_sensor" = "Tank")
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -61251,7 +61249,7 @@
 	dir = 1
 	},
 /obj/machinery/computer/atmos_control/tank/oxygen_tank{
-	sensors = list("o2_sensor"="Tank")
+	sensors = list("o2_sensor" = "Tank")
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos_distro)
@@ -66874,7 +66872,7 @@
 	dir = 1
 	},
 /obj/machinery/computer/atmos_control/tank/nitrogen_tank{
-	sensors = list("n2_sensor"="Tank")
+	sensors = list("n2_sensor" = "Tank")
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos_distro)
@@ -69788,7 +69786,7 @@
 	},
 /obj/machinery/computer/atmos_control/tank/mix_tank{
 	dir = 4;
-	sensors = list("mix_sensor"="Tank")
+	sensors = list("mix_sensor" = "Tank")
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos_distro)
@@ -105490,7 +105488,7 @@ hjO
 pVc
 khF
 aHC
-avZ
+iqP
 pcZ
 mRd
 qNu
